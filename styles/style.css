@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.type1{
+    width: 100%;
+    display:block;
+    margin: 0px auto;
+}
+.rivers-card{
+    width: 50%;
+    height: 20%;
+    display:block;
+    margin: 0px auto;
+    transform: translate(-50% -50%);
+}
+.camping-card{
+    width: 50%;
+    height: 20%;
+    display:block;
+    margin: 0px auto;
+    transform: translate(-50% -50%);
+}
+.rapids-card{
+    width: 50%;
+    display:block;
+    margin: 0px auto;
+    transform: translate(-50% -50%);
+}
+.icon {
+    width: 80px;
+}
+.type5{
+    width: 30%;
+    display:block;
+    margin: 0px auto;
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.book{
+    text-align: center;
+    display:block;
+    margin: 0px auto;
+}
+.msg{
+    text-align: center;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer {
+    background-color: #747464; 
+}
+.msg{
+    background-color: #747464; 
+}
+.appeared-in-color{
+    background-color: #747464;
+}       
