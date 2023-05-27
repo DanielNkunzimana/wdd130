@@ -53,21 +53,21 @@ body{
     margin: 0px auto;
 }
 .rivers-card{
-    width: 50%;
+    width: 65%;
     height: 20%;
     display:block;
     margin: 0px auto;
     transform: translate(-50% -50%);
 }
 .camping-card{
-    width: 50%;
+    width: 65%;
     height: 20%;
     display:block;
     margin: 0px auto;
     transform: translate(-50% -50%);
 }
 .rapids-card{
-    width: 50%;
+    width: 65%;
     display:block;
     margin: 0px auto;
     transform: translate(-50% -50%);
@@ -76,7 +76,7 @@ body{
     width: 80px;
 }
 .type5{
-    width: 30%;
+    width: 80%;
     display:block;
     margin: 0px auto;
 }
