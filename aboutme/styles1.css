@@ -3,17 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.imge{
+body{
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     background-color: #252d25;
 }
-.image img{
+.image{
     height: 300px;
-    max-width: 300px;
-    border-radius: 60%;
+    width: 300px;
+    border-radius: 30%;
     border: 10px solid #fff;
+    clip-path: circle();
 }
