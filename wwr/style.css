@@ -60,7 +60,6 @@ body{
     height: 300px;
     display:block;
     margin: 0px auto;
-    transform: translate(-50% -50%);
     margin-top: 65px;
     margin-bottom: 65px;
 }
@@ -69,7 +68,6 @@ body{
     height: 300px;
     display:block;
     margin: 0px auto;
-    transform: translate(-50% -50%);
     margin-top: 65px;
     margin-bottom: 65px;
 }
@@ -77,14 +75,11 @@ body{
     width: 300px;
     display:block;
     margin: 0px auto;
-    transform: translate(-50% -50%);
-    margin-top: 65px;
     margin-bottom: 65px;
 }
 .icon {
     width: 80px;
     padding-right: 30px;
-    align-items: left;
     padding-top: 10px;
 }
 .type5{
@@ -167,7 +162,7 @@ nav a {
     padding-bottom: 15px;
 }
 .home-title {
-    font-family: 'Bradley Hand';
+    font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     color: #d9c2a3;
 }
