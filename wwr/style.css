@@ -46,34 +46,53 @@ img{
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #fcfbfb;
+    font-family:Raleway, Arial, sans-serif;
+    font-size:22px,
+}
+h2 {
+    margin: 0;
 }
 .type1{
     width: 100%;
     display:block;
-    margin: 0px auto;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
 }
 .rivers-card{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     display:block;
-    margin: 0px auto;
+    margin: 200px 0;
     transform: translate(-50% -50%);
+    display: flex;
+    justify-content: center;
 }
 .camping-card{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     display:block;
-    margin: 0px auto;
+    margin: 200px 0;
     transform: translate(-50% -50%);
+    display: flex;
+    justify-content: center;
 }
 .rapids-card{
-    width: 400px;
+    width: 200px;
+    height: 200px;
     display:block;
-    margin: 0px auto;
+    margin: 200px 0;
     transform: translate(-50% -50%);
+    display: flex;
+    justify-content: center;
+
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 .type5{
     width: 80%;
@@ -89,20 +108,87 @@ h4{
 .book{
     text-align: center;
     display:block;
-    margin: 0px auto;
+    margin-top: 50;
 }
 .msg{
-    text-align: center;
+    
 }
 footer p {
     font-size: 1.2em;
 }
 footer {
-    background-color: #747464; 
+    background-color: #747464;
+    margin-top: 200px; 
 }
 .msg{
-    background-color: #747464; 
+    background-color: #747464;
+    padding: 35px;
+    text-align: center;
+    background-color: #6f7364;
+    line-height: 1.5em; 
 }
 .appeared-in-color{
     background-color: #747464;
-}       
+}
+/* adding margins*/
+.home-title{
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: 'Rock Salt','Bradyley Hand', sans-serif;
+}
+/* adding borders, border radius and box-sizing*/      
+.book, .join{
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+main section img{
+    box-sizing: border-box;
+}
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding:35px;
+}
+.pc{
+    background-color: #d9c2a3;
+    width: 100%;
+    height: 300px;
+    border: 1px;
+    box-sizing: border-box;
+    margin: 30px;
+}
+.msg p{
+    padding-bottom: 15px;
+    font-size: 2em;
+}
+footer .social img{
+    padding-top: 15px;
+}
+#logo_link{
+    padding-top:5px;
+}
+.rapid-card img{
+    width: 50%;
+    margin: auto;
+    display:black;
+    display: flex;
+    justify-content: center;
+}
+div#{
+    
+}

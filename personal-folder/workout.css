@@ -1,0 +1,11 @@
+body{
+    background-color:lightblue ;
+    padding: 50px;
+    margin: 50px;
+    justify-content: space-between;
+}
+a{
+    justify-content: space-between;
+    padding: 50px;
+    margin: 50px;
+}
