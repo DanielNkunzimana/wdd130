@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #a3f11b   ;
+  --secondary-color: #e7d04f ;
+  --accent1-color: #e5beb9;
+  --accent2-color: rgb(255, 255, 255);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #a3f11b;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #a3f11b; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #a3f11b  ;
+  --nav-link-color: #a3f11b;
+  --nav-background-color: #0d88d4;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #a3f11b;
 }
 
 
@@ -38,7 +38,9 @@ body {
 }
 img {
   display: block;
-  margin: 0 auto;
+  margin: center;
+  justify-content: center;
+  align-items: center;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -74,7 +76,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #f3c3c3;
 }
 .colors td{
   width: 25%;
@@ -179,7 +181,7 @@ a{
     margin: 50px;
 }
 img{
-    margin: 50px;
     width: 300px;
-    
+    justify-content: center;
+    align-items: center;
 }
