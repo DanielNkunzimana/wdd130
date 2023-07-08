@@ -49,16 +49,13 @@ body{
     font-size: 22px;
     margin: 0px;
     padding: 0px;
-<<<<<<< HEAD
     background-color: #fcfbfb;
     font-family:Raleway, Arial, sans-serif;
     font-size:22px,
 }
 h2 {
     margin: 0;
-=======
     display: grid;
->>>>>>> 626719003e3991a7c6853cb6f6d3706d9bede608
 }
 .type1{
     width: 100%;
@@ -68,7 +65,6 @@ h2 {
     justify-content: center;
 }
 .rivers-card{
-<<<<<<< HEAD
     width: 200px;
     height: 200px;
     display:block;
@@ -101,7 +97,6 @@ h2 {
     padding-top: 10px;
     display: flex;
     justify-content: center;
-=======
     width: 300px;
     height: 300px;
     display:block;
@@ -127,7 +122,6 @@ h2 {
     width: 80px;
     padding-right: 30px;
     padding-top: 10px;
->>>>>>> 626719003e3991a7c6853cb6f6d3706d9bede608
 }
 .type5{
     width: 80%;
@@ -154,14 +148,12 @@ footer p {
 footer {
     background-color: #747464;
     margin-top: 200px; 
-=======
     background-color: #6f7364;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
->>>>>>> 626719003e3991a7c6853cb6f6d3706d9bede608
 }
 .msg{
     background-color: #747464;
@@ -180,14 +172,12 @@ footer {
     font-family: 'Rock Salt','Bradyley Hand', sans-serif;
 }
 /* adding borders, border radius and box-sizing*/      
-=======
     background-color: #6f7364;
     line-height: 1em;
     grid-column: 6/10; 
     grid-row: 6/7;
     font-family: 'oswald';
     box-shadow: 5px 5px 10px #6f7364;
-
 }
 .appeared-in-color{
     background-color: #747464;
