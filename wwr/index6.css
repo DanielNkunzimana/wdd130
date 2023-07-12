@@ -1,0 +1,31 @@
+body {
+    justify-content: center;
+}
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+    white-space: 37px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+header {
+    background-color:#d9c2a3;
+}
+footer {
+    background-color: #747464;
+    margin-top: 200px; 
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.culture img {
+    height: 200px;
+}
