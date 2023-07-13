@@ -25,20 +25,30 @@ aside:nth-child(4){
     height: 400px;
 }
 aside:nth-child(5){
-    width: 100%;
+    width: 300%;
     float: right;
     height: 400px;
 }
 aside:nth-child(6){
     width: 100%;
-    float: right;
+    float: left;
     height: 400px;
 }
 aside:nth-child(7){
     width: 100%;
-    float: right;
-    height: 400px;
+    float: left;
+    height: 200px;
+}
+aside:nth-child(8){
+    width: 100%;
+    float: left;
+    height: 200px;
+}
+aside:nth-child(9){
+    width: 100%;
+    float: left;
+    height: 200px;
 }
 footer{
-    height: 400px;
+    height: 200px;
 }
