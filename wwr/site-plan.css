@@ -38,7 +38,7 @@ body {
 }
 img {
   display: block;
-  margin: center;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
