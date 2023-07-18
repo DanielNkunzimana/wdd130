@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+nav a {
+    padding:1em;
+    min-width: 80px;
+    text-decoration: none;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 100px;
+    width: 100%;
+}
+header nav a {
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.logo {
+    box-sizing:border-box;
+    box-shadow: 100px;
+}
+h1 {
+    margin-left: 300px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 100px;
+}
