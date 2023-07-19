@@ -1,6 +1,33 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #a3f11b   ;
+  --secondary-color: #e7d04f ;
+  --accent1-color: #e5beb9;
+  --accent2-color: rgb(255, 255, 255);
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #a3f11b;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #a3f11b; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #a3f11b  ;
+  --nav-link-color: #a3f11b;
+  --nav-background-color: #0d88d4;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #a3f11b;
+}
 body{
     margin: 0 auto;
-    background-color: gainsboro;
+    background-color: #a3f11b;
     align-items: center;
     justify-content: center;
     float: right;
@@ -25,7 +52,6 @@ header nav a {
 }
 .logo {
     box-sizing:border-box;
-    box-shadow: 100px;
 }
 h1 {
     margin-left: 300px;
@@ -39,3 +65,33 @@ h2 {
     margin-left: 300px;
     margin-right: 100px;
 }
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+  }
+
+
+ 
+  
+  nav {
+    background-color: var(--nav-background-color);
+    line-height: 1em;
+    font-size: 1em;
+    
+  }
+ 
+  nav a {
+    padding:1em;
+    min-width: 80px;
+    text-decoration: none;
+    padding: 5px;
+    align-items: center;
+  }
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }

@@ -53,7 +53,15 @@ body { background:gainsboro; } #card { position: relative; top: 110px; width: 32
   color: #fff;  
   border-top-right-radius: 8px;  
   border-top-left-radius: 8px;  
- }  
+ } 
+ nav a {
+  padding:1em;
+  min-width: 80px;
+  text-decoration: none;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+} 
  #checkmark {  
   font-weight: lighter;  
   fill: #fff;  
