@@ -4,3 +4,12 @@ a {
     margin-right: 200px;
     margin-top: 50px;
 }
+body {
+    background-color: #a3f11b;
+}
+h2, h3 {
+    font-family: Lato, Helvetica, sans-serif;
+}
+h1{
+    font-family: "IM Fell French Canon SC";
+}
