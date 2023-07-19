@@ -69,16 +69,13 @@ p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
     padding: 1em;
+    font-family:  Lato, Helvetica, sans-serif;
   }
-
-
- 
-  
   nav {
     background-color: var(--nav-background-color);
     line-height: 1em;
     font-size: 1em;
-    
+    font-family:  Lato, Helvetica, sans-serif;
   }
  
   nav a {
